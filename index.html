@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=/, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Zadanie rekrutacyjne</title>
+</head>
+<body>
+    <nav class="menu">
+        <ul class="menu__list">
+            <li class="menu__item"><a href="#" class="menu__item-link">Home</a></li>
+            <li class="menu__item"><a href="#" class="menu__item-link">News</a></li>
+            <li class="menu__item"><a href="#" class="menu__item-link">Contact</a></li>
+            <li class="menu__item"><a href="#" class="menu__item-link">About</a></li>
+        </ul>
+    </nav>
+    <section class="articles">
+        <article class="article">
+            <div class="article-img-container">
+                <img src="kapibara.png" alt="main-photo" class="article__image">
+                <div class="article__spec">
+                    <span class="article__category">Category: Animals</span>
+                    <span class="article__date">03 march 2018</span>
+                </div>
+                <a href="#" class="article__button">lorem</a>
+            </div>
+            <div class="article-desc-container">
+                <h2 class="article__title">Lorem ipsum</h2>
+                <p class="article__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                </p>
+            </div>
+        </article>
+    </section>
+    <div id="map" class="map"></div>
+    <div class="map-options">
+        <button id="warsaw" class="map-options__button">Warszawa</button>
+        <button id="wroclaw" class="map-options__button">Wrocław</button>
+        <button id="gdansk" class="map-options__button">Gdańsk</button>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC13LvEDobdJcqag0Ffl27Dkh7T9EffzXE&callback=initMap">
+    </script>
+</body>
+</html>
+

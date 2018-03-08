@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu__list {
+    display: flex;
+    margin: 0;
+    box-shadow: 0px 8px 18px -8px rgba(0,0,0,0.56);
+}
+
+.menu__item {
+    list-style: none;
+    margin: 0;
+    padding: 24px 48px;
+}
+
+.menu__item-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .87);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.menu__item-link:hover {
+    color: lightblue;
+}
+
+.articles {
+    display: flex;
+    justify-content: center;
+}
+
+.article {
+    display: flex;
+    margin-top: 64px;
+    display: flex;
+    width: 720px;
+    box-shadow: 0px 8px 18px -8px rgba(0,0,0,0.56);
+}
+
+.article-img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.article__image {
+    width: 360px;
+    height: 220px;
+}
+
+.article__spec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article__button {
+    border: 1px solid rgba(0, 0, 0, .16);
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    color: rgba(0, 0, 0, .87);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 16px 36px;
+    width: 120px;
+    transition: all 0.3s;
+}
+
+.article__button:hover {
+    box-shadow: 0px 8px 18px -8px rgba(0,0,0,0.56);
+}
+
+.article__category {
+    font-size: 12px;
+    color: rgba(0, 0, 0, .36);
+    margin: 4px;
+} 
+
+.article__date {
+    font-size: 12px;
+    color: rgba(0, 0, 0, .36);
+    margin: 4px;
+}
+
+.article-desc-container {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 16px 16px 0;
+}
+
+.article__title {
+    color: rgba(0, 0, 0, .87);
+    margin: 16px 0 32px 0px;
+}
+
+.article__text {
+    color: rgba(0, 0, 0, .56);
+    text-align: justify;
+}
+
+.map {
+    height: 400px;
+    width: 1000px;
+    margin-left:auto; 
+    margin-right:auto;
+    margin-top: 64px;
+}
+
+.map-options {
+    display: flex;
+    justify-content: center;
+}
+
+.map-options__button {
+    border: 1px solid rgba(0, 0, 0, .16);
+    border-radius: 2px;
+    text-decoration: none;
+    background-color: transparent;
+    color: rgba(0, 0, 0, .87);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 16px 36px;
+    margin: 16px 32px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.map-options__button:hover {
+    box-shadow: 0px 8px 18px -8px rgba(0,0,0,0.56);
+}
